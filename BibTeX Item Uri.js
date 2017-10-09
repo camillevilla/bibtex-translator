@@ -1383,7 +1383,7 @@ function doExport() {
 				if (i == 0) {
 					var noteString = note.note;
 				} else {
-				noteString += ", "+note.note;
+				noteString += "\| "+note.note;
 				}
 			}
 			writeField("annote", Zotero.Utilities.unescapeHTML(noteString));
